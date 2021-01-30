@@ -10,11 +10,13 @@ public final class Limelight {
     NetworkTableEntry tx = table.getEntry("tx");
     NetworkTableEntry ty = table.getEntry("ty");
     NetworkTableEntry ta = table.getEntry("ta");
-
+    NetworkTableInstance.getDefault().getTable("limelight").getEntry("<variablename>").getDouble(0);
+    
     //read values periodically
     double x = tx.getDouble(0.0);
     double y = ty.getDouble(0.0);
     double area = ta.getDouble(0.0);
+    
     
     public void teleopPeriodic() {
         SmartDashboard.putNumber("LimelightX", x);
