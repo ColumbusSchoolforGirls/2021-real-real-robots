@@ -22,11 +22,8 @@ public final class Limelight {
         SmartDashboard.putNumber("LimelightY", y);
         SmartDashboard.putNumber("LimelightArea", area);
         NetworkTableInstance.getDefault().getTable("limelight").getEntry("<variablename>").getDouble(0);
+    
   
     }
-    
-
-    
-    
     
 }
