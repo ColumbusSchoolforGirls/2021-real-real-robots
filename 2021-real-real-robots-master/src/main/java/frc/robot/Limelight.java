@@ -10,7 +10,6 @@ public final class Limelight {
     NetworkTableEntry tx = table.getEntry("tx");
     NetworkTableEntry ty = table.getEntry("ty");
     NetworkTableEntry ta = table.getEntry("ta");
-    NetworkTableInstance.getDefault().getTable("limelight").getEntry("<variablename>").getDouble(0);
     
     //read values periodically
     double x = tx.getDouble(0.0);
@@ -22,11 +21,9 @@ public final class Limelight {
         SmartDashboard.putNumber("LimelightX", x);
         SmartDashboard.putNumber("LimelightY", y);
         SmartDashboard.putNumber("LimelightArea", area);
+        NetworkTableInstance.getDefault().getTable("limelight").getEntry("<variablename>").getDouble(0);
+    
   
     }
-    
-
-    
-    
     
 }
