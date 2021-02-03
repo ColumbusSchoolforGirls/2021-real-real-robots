@@ -16,10 +16,10 @@ public class Drivetrain extends SubsystemBase {
 
   //makes motor variables? maybe? idrk?
   //need to change port numbers (is that what they are?) to robot map things
-  private final CANSparkMax right_front = new CANSparkMax(1, MotorType.kBrushless);
-  private final CANSparkMax left_front = new CANSparkMax(2, MotorType.kBrushless);
-  private final CANSparkMax right_back = new CANSparkMax(3, MotorType.kBrushless);
-  private final CANSparkMax left_back = new CANSparkMax(4, MotorType.kBrushless);
+  public final CANSparkMax right_front = new CANSparkMax(1, MotorType.kBrushless);
+  public final static CANSparkMax left_front = new CANSparkMax(2, MotorType.kBrushless);
+  public final CANSparkMax right_back = new CANSparkMax(3, MotorType.kBrushless);
+  public final CANSparkMax left_back = new CANSparkMax(4, MotorType.kBrushless);
 
 //THE ENCODER CODE CHANGED SO WE DON'T KNOW WHAT TO DO ABOUT THAT
 //need to look
