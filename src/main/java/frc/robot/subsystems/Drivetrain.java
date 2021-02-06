@@ -23,6 +23,7 @@ public class Drivetrain extends SubsystemBase {
 
 //THE ENCODER CODE CHANGED SO WE DON'T KNOW WHAT TO DO ABOUT THAT
 //need to look
+//test for push
 
   public Drivetrain() {
  }
