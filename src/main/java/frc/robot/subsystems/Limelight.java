@@ -32,7 +32,7 @@ public final class Limelight extends SubsystemBase{
             //what is steering adjust????? sadness >:()
             //maybe try setting to current speed (get that somehow) + steering_adjust
             Drivetrain.left_front.set(steering_adjust);
-            right_front -= steering_adjust;
+            //right_front -= steering_adjust;
         }else{
             
             steering_adjust = heading_error;
